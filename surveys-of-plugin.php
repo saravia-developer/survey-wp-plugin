@@ -70,8 +70,8 @@ add_action('admin_menu', 'create_menu');
 function create_menu()
 {
   add_menu_page(
-    'Super Encuestas', // Título de la página
-    'Super Encuentas Menu', // Título del menú
+    'Página principal', // Título de la página
+    'Encuentas', // Título del menú
     'manage_options', // Capability
     plugin_dir_path(__FILE__) . 'admin/list-of-surveys.php', // slug
     null, // Función creada para mostrar el contenido de la página
